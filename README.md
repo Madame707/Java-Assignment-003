@@ -50,19 +50,31 @@ Your assignment is to use Built-In java classes to:
     * HINT: the path can be relative to the project directory, maybe use the string in the example above :-)
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
-1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
+1. Last add image markdown below this line to load your map image (Hint: Exa
+2. sample image Markdown is just a couple lines above this).
 
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
     * What is the **access modifer** (e.g. public, private, protected)?
+      * // Public;
     * Is it a **Class method** or an **object Instance method**, how do you know?
+      * // It's a Class method because the project declares it public class. The C symbol on the HiddenSecrets project. Also, there nothing that declared an instance method. Class methods can't access instant variables or instance methods.
     * What is its **return data-type**?
+      * // void is the return data type, which has no return value;
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+      * // I do see arguements, 3 set of parameters that call a string. The data type is a format specifiers;
+      * 
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+      * // public class and public static, System.out.println, the strings, ("That file does not exist.");
+            look familiar. The java keyword import declares a class to use in the code;
+            I see the if and statements are conditionals, but i'm not sure what it does yet; 
     * What is not familiar to you?
+      * // The catch, new, and for statements look new to me; 
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+      * // The for loops don't make too much sense to me yet, but from what I lightly researched is;
+            it's a statement written several times;
 
 ## PART 4 - Turn in
 
